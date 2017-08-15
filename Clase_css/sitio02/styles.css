@@ -1,0 +1,278 @@
+.fondo{
+    background-image: url(css-imagenes/dant.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+    width: auto;
+}
+.fondo-1{
+    background-image: url(css-imagenes/vergil.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo2{
+    background-image: url(css-imagenes/dante-fondo1.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo3{
+    background-image: url(css-imagenes/dantner.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursiv e;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo4{
+    background-image: url(css-imagenes/dantverg2.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursiv e;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo5{
+    background-image: url(css-imagenes/dant2.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursiv e;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo6{
+    background-image: url(css-imagenes/dante1.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursiv e;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+.fondo7{
+    background-image: url(css-imagenes/dante4.jpg);
+    background-attachment: fixed;
+    font-family: 'Caveat Brush', cursiv e;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+}
+
+strong{
+    color:#C49E2A;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(130, 14, 14);
+}
+
+.marco-contenedor{
+    font-size: 16px;
+    margin: 20px 50px 20px 50px;
+    padding: 0 20px 0 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    position: relative;
+    width: 1200px;
+}
+.marco-contenedor a{
+    color:#c49e2b;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header{
+    border-bottom: 1px solid gray;
+    padding: 5px 0 5px 50px;
+    background-color: rgb(29, 30, 30);
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 18px;
+}
+#header a{
+    color:#c49e2b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#pie{
+    border-top: 1px solid gray;
+    padding: 2px 0 2px 50px;
+    background-color: rgb(29, 30, 30);
+    color: white;
+}
+#pie a{
+    color:#C49E2A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#descripcion ul{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    text-align: justify;
+}
+#descripcion ul ol{
+    color: white;
+    list-style: upper-roman
+}
+
+
+#vergil{
+    font-size: 16px;
+    margin: 20px 50px 20px 50px;
+    padding: 0 20px 20px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    width: 600px;
+    height: 450px;
+}
+#vergil table{
+    position: relative;
+    left: 720px;
+    bottom: 457px;
+    height: 471px;
+    background-color: black;
+}
+#nelo{
+    width: 600px;
+    font-size: 16px;
+    margin: 20px 50px 20px 50px;
+    padding: 0 20px 0 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    position: relative;
+    left: 600px;
+    height: 440px;
+}
+#nelo figure{
+    position: relative;
+    width: 500px;
+    bottom: 328px;
+    right: 663px;
+}
+#nelo  img{
+    width: 480px;
+    bottom: 328px;
+    right: 663px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+#nelo figcaption{
+    display: block;
+    text-align: center;
+    color: #C49E2A;
+    text-shadow: 2px 2px 6px black;
+}
+#curiosidades-1 ul li{
+    line-height: 30px;
+}
+
+#dante{
+    font-size: 16px;
+    margin: 20px 50px 20px 50px;
+    padding: 0 20px 20px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    width: 600px;
+    height: 647px;
+}
+#dante table{
+    position: relative;
+    left: 720px;
+    bottom: 600px;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+#galeria-dante h3{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    font-size: 18px;
+}
+#galeria-dante table{
+    position: relative;
+    left: 280px;
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+#dmc4 img{
+    position: relative;
+    left: 350px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+#dmc4-pj ul{
+    list-style: square;
+}
+#carac-armas table{
+    color: black;
+    font-weight: bold;
+}
+#carac-armas ul{
+    list-style: square;
+}
+
+
+#dmc3 img{
+    position: relative;
+    left: 350px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+#armas-dmc3 table{
+    color: black;
+}
+#armas-dmc3 ul{
+    list-style: square;
+}
+
+
+#dmc2 img{
+    position: relative;
+    left: 350px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 10px; 
+}
+#dmc2-pj ul{
+    list-style: square;
+}
+
+
+#dmc1 img{
+    position: relative;
+    left: 350px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+#profile{
+    font-size: 20px;
+}
+#profile ul{
+    list-style: square;
+}
+#profile a{
+    text-transform: lowercase;
+}

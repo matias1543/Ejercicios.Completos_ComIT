@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Replica de formulario gmail</title>
+    </head>
+    <body>
+        <h1>Replica de formulario gmail</h1>
+        <hr />
+        <form action="#">
+            <div>
+                <label><p><strong>Name</strong></p></label>
+                <input type="text" name="Firstname" placeholder="First" required/>
+                <input type="text" name="Lastname" placeholder="Last" required/>
+            </div>
+            <div>
+                <label><p><strong>Choose your username</strong></p></label>
+                <input  type="text" name="mail" required/> @gmail
+            </div>
+            <div>
+                <label><p><strong>Create a password</strong></p></label>
+                <input type="password" name="password" required/>
+                <label><p><strong>Confirm your password</strong></p></label>
+                <input type="password" name="password" required/>    
+            </div>
+            <div>
+                <label><p><strong>Gender</strong></p></label>
+                <select name="gender">
+                    <option value="">I am...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label><p><strong>Mobile phone</strong></p></label>
+                <input type="text" name="mobile" required/>
+            </div>
+            <div>
+                <label><p><strong>Your current email address</strong></p></label>
+                <input type="email" name="mail" required/>
+            </div>
+            <div>
+                <label><p><strong>Location</strong></p></label>
+                <select name="location" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Mexico">México</option>
+                    <option value="Chile">Chile</option>
+                </select>
+            </div>
+            <br  />
+            <input type="submit" name="next" value="Next Step"/>
+        </form> 
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Es alto o ancho?</title>
+        <style type="text/css">
+            div{
+                width: 200px;
+                background-color: rgb(255, 0, 0);
+            }
+            p{
+                min-width: 200px;
+                background-color: rgb(0, 0, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Es alto o ancho?</h1>
+        <div>Nam lacinia consectetur sapien eu convallis.</div>
+        <p>Quisque gravida, lacus at semper tincidunt, nisl mauris luctus enim, ac egestas tellus velit nec sem. Sed porta consequat enim posuere vulputate. Donec sed tincidunt sapien.</p>
+    </body>
+</html>
+
+<!--¿Por qué la caja azul se ve de esa forma y no en 20px? Porque solo establecimos el minimo
+del ancho de la etiqueta p. Si  nosotros le asignamos a p la propiedad width con 20px el ancho
+sera de 200px porque le fue asignado que el minimo solamente puede ser 200px -->

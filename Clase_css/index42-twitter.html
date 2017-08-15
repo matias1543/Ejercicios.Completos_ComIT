@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Replica de formulario de twitter</title>
+        <style type="text/css">
+            body{
+                margin: 0px auto 0px auto;
+            }
+            #header{
+                margin-bottom: 30px;
+                border-bottom: 1px solid rgb(37, 112, 178);
+                padding: 2px;
+                background-color: rgb(37, 112, 178);
+                color: white;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .dato-personal{
+                border: 1px solid gray;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            button{
+                margin-left: 10px;
+                padding: 3px 30px 3px 30px;
+                font-weight: bold;
+                font-size: 15px;
+                background-color: rgb(98, 168, 229);
+                border: 1px solid rgb(98, 168, 229);
+                border-radius: 25px;
+                box-shadow: 1px 2px 6px -5px black;  
+                text-shadow: 2px 2px 5px gray;
+                color: white;
+            }
+            .remember{
+                color: #adb0b2;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(98, 168, 229);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+        <h1>Replica de formulario de twitter</h1>
+        </div>
+        <form action="#">
+            <input class="dato-personal" type="text" name="PhoneNumberUsername" placeholder="Phone, email or username" size="35" required/>
+            <p>
+                <input class="dato-personal" type="password" name="password" placeholder="password"/ size="15" required>
+                <button>Log in</button>
+            </p>
+            <input type="checkbox" name="remember" value="Remember"/> <span  class="remember" >Remember me</span> . <a href="https://twitter.com/account/begin_password_reset">Forgot password?</a>
+        </form>
+    </body>
+</html>

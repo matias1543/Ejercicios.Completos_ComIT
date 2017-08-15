@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Replica de formulario gmail</title>
+        <style type="text/css">
+            body{
+                margin: 0px auto 0px auto;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #header{
+                margin-bottom: 20px;
+                border-bottom: 1px solid rgb(182, 183, 186, 0.2);
+                padding: 2px;
+                background-color: rgb(182, 183, 186, 0.2);
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .formulario{
+                position: absolute;
+                width: 400px;
+                text-align: justify;
+                padding: 10px 15px 10px 15px;
+                right: 50px;
+                border: 1px solid gray;
+                background-color: rgb(182, 183, 186, 0.2);
+                line-height: 8px;
+            }
+            button{
+                margin-left: 10px;
+                padding: 3px 30px 3px 30px;
+                font-weight: bold;
+                font-size: 15px;
+                background-color: rgb(98, 168, 229);
+                border: 1px solid rgb(98, 168, 229);
+                border-radius: 25px;
+                box-shadow: 1px 2px 6px -5px black;  
+                text-shadow: 2px 2px 5px gray;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Replica de formulario gmail</h1>
+        </div>
+        <div class="formulario">
+        <form action="#">
+            <div class="dato-personal">
+                <label><p><strong>Name</strong></p></label>
+                <input type="text" name="Firstname" placeholder="First" required/>
+                <input type="text" name="Lastname" placeholder="Last" required/>
+            </div>
+            <div>
+                <label><p><strong>Choose your username</strong></p></label>
+                <input  type="text" name="mail" required/> @gmail
+            </div>
+            <div>
+                <label><p><strong>Create a password</strong></p></label>
+                <input type="password" name="password" required/>
+                <label><p><strong>Confirm your password</strong></p></label>
+                <input type="password" name="password" required/>    
+            </div>
+            <div>
+                <label><p><strong>Gender</strong></p></label>
+                <select name="gender">
+                    <option value="">I am...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label><p><strong>Mobile phone</strong></p></label>
+                <input type="text" name="mobile" required/>
+            </div>
+            <div>
+                <label><p><strong>Your current email address</strong></p></label>
+                <input type="email" name="mail" required/>
+            </div>
+            <div>
+                <label><p><strong>Location</strong></p></label>
+                <select name="location" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Mexico">México</option>
+                    <option value="Chile">Chile</option>
+                </select>
+            </div>
+            <br  />
+            <button>Next Step</button>
+        </form> 
+        <div>
+    </body>
+</html>

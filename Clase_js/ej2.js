@@ -1,0 +1,10 @@
+var nombre;
+var apellido;
+var edad;
+var fecha_de_nacimiento;
+var direccion;
+nombre = 'Matias';
+apellido= 'Pallante';
+edad = 23;
+fecha_de_nacimiento = '21/09/93';
+direccion = 'Thames';

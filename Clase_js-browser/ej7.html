@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>JS en browser</title>
+    <script>
+      alert('Vamos a sumar todos los numeros que Ud. ingrese');
+      let suma = 0;
+
+      do {
+        let numero = parseInt(prompt('Ingrese un numero'));
+        
+        suma += numero;
+
+        console.log(`Total = ${suma}`);
+      }while(confirm('Desea seguir sumando?'));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

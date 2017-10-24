@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Elementos</title>
+  <style>
+    .rojo {
+      color: red;
+    }
+    .verde {
+      color: green;
+    }
+    .naranja {
+      color: orange;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+        let ul = document.querySelector('ul');
+        let hijosUl = ul.children;
+        console.log(hijosUl);
+        let segundoUl = hijosUl[1];
+        segundoUl.setAttribute('class', 'verde');
+        let cuartoUl = hijosUl[3];
+        cuartoUl.setAttribute('class', 'rojo');
+        console.log(cuartoUl.parentElement);
+        let referenciaAlPadre = hijosUl[2].parentElement;
+        referenciaAlPadre.setAttribute('class', 'naranja');
+    }
+  </script>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>JS en browser</title>
+    <script>
+      let cont = 0;
+      let segundos = parseInt(prompt('Ingresar al cantidad de segundos que desear ver el documento'));
+
+      let sesion = setInterval(function() {
+        cont++;
+
+        if(cont == segundos) {
+          clearInterval(sesion);
+          alert('ha caducado su sesión por favor vuelva a ingresar');
+        }
+
+        console.log(cont);
+      }, 1000);
+    </script>
+  </head>
+</html>
